@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutanuti Cricket League</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #6c757d;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .team, .match {
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sutanuti Cricket League</h1>
+        <p>Welcome to the official website of the Sutanuti Cricket League</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#teams">Teams</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About the League</h2>
+            <p>The Sutanuti Cricket League is a premier cricket league featuring some of the best cricket talent from the region. Our league aims to promote the sport of cricket and provide a platform for players to showcase their skills.</p>
+        </div>
+        <div id="teams" class="section">
+            <h2>Teams</h2>
+            <div class="team">
+                <h3>Team A</h3>
+                <p>Team A is known for its strong batting lineup and experienced players.</p>
+            </div>
+            <div class="team">
+                <h3>Team B</h3>
+                <p>Team B has a formidable bowling attack and a dedicated fan base.</p>
+            </div>
+            <!-- Add more teams as needed -->
+        </div>
+        <div id="schedule" class="section">
+            <h2>Schedule</h2>
+            <div class="match">
+                <h3>Match 1: Team A vs Team B</h3>
+                <p>Date: June 25, 2024</p>
+                <p>Venue: Sutanuti Cricket Ground</p>
+            </div>
+            <div class="match">
+                <h3>Match 2: Team C vs Team D</h3>
+                <p>Date: June 26, 2024</p>
+                <p>Venue: Sutanuti Cricket Ground</p>
+            </div>
+            <!-- Add more matches as needed -->
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need more information, please contact us at:</p>
+            <p>Email: info@sutanuticricketleague.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sutanuti Cricket League. All rights reserved.</p>
+    </footer>
+</body>
+</html>
